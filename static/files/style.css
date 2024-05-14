@@ -1,0 +1,47 @@
+:root {
+  --bg1: #fefefe;
+  --bg2: #e7ebed;
+  --accent1: #f0362d;
+  --accent2: #4e5960;
+  --accent3: #4f42f7;
+  --accent4: #162832;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1.4;
+}
+header {
+  position: static;
+  width: 100%;
+}
+nav {
+  width: 100%;
+  max-width: 1100px;
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  font-size: 19px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  color: var(--accent1);
+}
+nav ul {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: flex-end;
+  list-style: none;
+}
+/* nav ul li {
+
+} */
+nav ul li a {
+  text-decoration: none;
+  color: var(--accent4);
+  font-size: 16px;
+}
